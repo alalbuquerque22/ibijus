@@ -1,5 +1,21 @@
 <?php
+/* 
+require __DIR__ . '/src/BuscaViaCEP_inc.php';
+   //usar o helper
+     use Jarouche\ViaCEP\HelperViaCep;
+
+     //tipos permitidos
+     $array_tipos =['Querty','Piped','JSON','JSONP','XML'];
+
+
+     // testando todos os tipos de requisição
+     foreach ($array_tipos as $tipo){
+         //helper retorna da dados do cep através dos parâmetros tipo e cep
+         $class_cep = HelperViaCep::getBuscaViaCEP($tipo,'01311300');
+           var_dump($class_cep);
+     } */
 /**
+ * 
  * @var \App\View\AppView $this
  * @var \App\Model\Entity\local $local
  */
