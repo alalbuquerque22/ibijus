@@ -6,8 +6,8 @@
 ?>
 <nav class="large-3 medium-4 columns" id="actions-sidebar">
     <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('New local'), ['action' => 'add']) ?></li>
+        <li class="heading"><?= __('Ações') ?></li>
+        <li><?= $this->Html->link(__('Novo Local'), ['action' => 'add']) ?></li>
     </ul>
 </nav>
 <div class="locais index large-9 medium-8 columns content">
@@ -42,9 +42,9 @@
                 <td><?= h($local->cidade) ?></td>
                 <td><?= h($local->data) ?></td>
                 <td class="actions">
-                    <?= $this->Html->link(__('View'), ['action' => 'view', $local->id]) ?>
-                    <?= $this->Html->link(__('Edit'), ['action' => 'edit', $local->id]) ?>
-                    <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $local->id], ['confirm' => __('Are you sure you want to delete # {0}?', $local->id)]) ?>
+                    <?= $this->Html->link(__('Ver'), ['action' => 'ver', $local->id]) ?>
+                    <?= $this->Html->link(__('Editar'), ['action' => 'editar', $local->id]) ?>
+                    <?= $this->Form->postLink(__('Deletar'), ['action' => 'deletar', $local->id], ['confirm' => __('Certeza que deseja deletar # {0}?', $local->id)]) ?>
                 </td>
             </tr>
             <?php endforeach; ?>

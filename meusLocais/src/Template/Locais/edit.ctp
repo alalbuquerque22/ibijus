@@ -32,6 +32,6 @@
             echo $this->Form->control('data');
         ?>
     </fieldset>
-    <?= $this->Form->button(__('Submit')) ?>
+    <?= $this->Form->button(__('Alterar')) ?>
     <?= $this->Form->end() ?>
 </div>
